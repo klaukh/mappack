@@ -1,0 +1,18 @@
+Package: mappack
+Type: Package
+Title: Example of serving local leaflet tiles
+Version: 1.0
+Date: 2018-03-24
+Author: Kent E Laukhuf
+Maintainer: Kent E Laukhuf <laukhuf@gmail.com>
+Description: Provides an example on how to serve local tiles for leaflet 
+  maps as part of a package. This package will not be provided on CRAN, nor 
+  do I believe it would be accepted on CRAN, due to the large number of files 
+  contained inside the package itself. 
+License: MIT | file LICENSE
+Imports:
+  leaflet,
+  shiny
+RoxygenNote: 6.0.1
+URL: https://github.com/klaukh/mappack
+BugReports: https://github.com/klaukh/mappack/issues
