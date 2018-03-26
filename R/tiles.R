@@ -39,3 +39,19 @@ addMappackTiles <- function(map, layerId = NULL, group = NULL,
 
   return(map)
 }
+
+
+#' Accessors to the tiles
+#'
+#' Use these objects to access the directories for the tiles
+#' in the \code{mappack} package.
+#'
+#' @name tiles
+#' @export
+mappackTilesURL <- normalizePath(paste0(system.file("map", package = "mappack"),
+                                        "/{z}/{x}/{y}.png"))
+
+#' @rdname tiles
+#' @export
+mappackTilesDir <- normalizePath(system.file("map", package = "mappack"))
+

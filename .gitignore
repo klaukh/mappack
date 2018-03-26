@@ -33,6 +33,10 @@ vignettes/*.pdf
 *.knit.md
 .Rproj.user
 
-# The map files directory
-inst/map/*
+# Lower levels of the map file directory
+inst/map/4/*
+inst/map/5/*
+inst/map/6/*
+inst/map/7/*
+inst/map/8/*
 
