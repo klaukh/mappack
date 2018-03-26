@@ -9,7 +9,7 @@ Description: Provides an example on how to serve local tiles for leaflet
   maps as part of a package. This package will not be provided on CRAN, nor 
   do I believe it would be accepted on CRAN, due to the large number of files 
   contained inside the package itself. 
-License: MIT | file LICENSE
+License: MIT file LICENSE
 Imports:
   leaflet,
   shiny
